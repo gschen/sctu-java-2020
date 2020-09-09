@@ -8,7 +8,6 @@ public class Person {
 
     //2.方法，行为：学习，跑步等
     void study(){
-
         System.out.println("我在学习。");
     }
     void run(){
