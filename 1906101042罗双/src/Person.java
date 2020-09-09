@@ -15,7 +15,7 @@ public class Person {
         System.out.println("我在跑步。");
     }
     void movie(){
-        System.out.println("我在看电影。");
+        System.out.println("我正在在看电影。");
     }
 
 }
