@@ -1,3 +1,5 @@
+package edu.sctu.java.day0908;
+
 public class Person {
         String name = "张三";
         int age = 18;
@@ -17,4 +19,6 @@ public class Person {
     System.out.println("爱电影");
     }
 }
-2
+
+
+
