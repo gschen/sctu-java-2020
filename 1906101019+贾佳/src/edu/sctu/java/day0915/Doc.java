@@ -22,4 +22,9 @@ public class Doc {
     Doc(){
         System.out.println("这是构造函数");
     }
+    //有参构造
+    Doc(String name,int age){
+        this.name = name;
+        this.age = age;
+    }
 }
