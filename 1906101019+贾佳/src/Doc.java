@@ -1,8 +1,8 @@
 public class Doc {
-    int age = 20;
-    String name = "Mike";
-    float Salary = 6000.0f;
-    String Position = "医生";
+    int age ;
+    String name ;
+    double Salary;
+    String Position ;
     void CheckForPatient(){
         System.out.println("正在检查");
     }
@@ -12,5 +12,8 @@ public class Doc {
     }
     void Surgery(){
         System.out.println("正在做手术");
+    }
+    void Sleep(){
+        System.out.println("正在睡觉");
     }
 }
