@@ -1,3 +1,5 @@
+package edu.sctu.java.day0915;
+
 public class Doc {
     int age ;
     String name ;
