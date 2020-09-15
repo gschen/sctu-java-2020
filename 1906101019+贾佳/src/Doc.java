@@ -16,4 +16,8 @@ public class Doc {
     void Sleep(){
         System.out.println("正在睡觉");
     }
+    //构造函数
+    Doc(){
+        System.out.println("这是构造函数");
+    }
 }
