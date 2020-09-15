@@ -1,3 +1,5 @@
+package edu.sctu.java.day0908;
+
 public class Preson {
     //1.属性：姓名，年龄，性别等。
     String name = "linyixin";
@@ -10,11 +12,17 @@ public class Preson {
         System.out.println("日常学习国家政务");
     }
 
-    void run(){
+    void run() {
         System.out.println("日常夜跑");
     }
 
     void movie() {
         System.out.println("一天一部电影");
+    }
+
+    //构造函数
+    Preson(){
+
+        System.out.println("这是构造函数！");
     }
 }
