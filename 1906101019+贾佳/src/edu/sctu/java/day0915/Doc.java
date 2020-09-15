@@ -1,3 +1,5 @@
+package edu.sctu.java.day0915;
+
 public class Doc {
     int age ;
     String name ;
@@ -19,5 +21,10 @@ public class Doc {
     //构造函数
     Doc(){
         System.out.println("这是构造函数");
+    }
+    //有参构造
+    Doc(String name,int age){
+        this.name = name;
+        this.age = age;
     }
 }
