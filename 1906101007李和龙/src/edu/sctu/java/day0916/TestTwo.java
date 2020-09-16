@@ -5,7 +5,7 @@ public class TestTwo {
         TestOne li = new TestOne();
         li.age = 16;
         li.name = "li";
-        li.sexy = "male";  //这里报错说明在同一package中privat也不能使用
+//        li.sexy = "male";  //这里报错说明在同一package中privat也不能使用
     }
 }
 
