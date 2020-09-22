@@ -2,13 +2,12 @@ package edu.sctu.java.day0915;
 
 public class Bird {
 
-    String name;
+    public String name;
     String color;
+    private int a;
+    protected int b;
 
-
-
-
-    void fly(){
+    protected void fly(){
 
         System.out.println("flying");
     }

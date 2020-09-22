@@ -19,6 +19,7 @@ public class Dog {
     void  eat(){
         System.out.println("eat");
     }
+
     void sleep(){
         System.out.println("sleep");
     }
