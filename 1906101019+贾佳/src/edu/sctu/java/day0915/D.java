@@ -1,6 +1,6 @@
 package edu.sctu.java.day0915;
 
-public class D extends C{
+public final class D extends C{
     void d(){
 
     }
