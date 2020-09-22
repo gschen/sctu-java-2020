@@ -1,6 +1,6 @@
 package edu.sctu.java.day0922;
 
-public class Student extends Peroson{
+public class Student extends Person {
     int StudentNumber;
     String Class;
     void study(){
@@ -13,6 +13,6 @@ public class Student extends Peroson{
 
     void sleep(){
         super.sleep();
-        System.out.println("子类正在睡觉");
+        System.out.println("学生正在睡觉");
     }
 }
