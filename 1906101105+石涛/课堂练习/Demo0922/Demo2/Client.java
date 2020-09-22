@@ -1,10 +1,9 @@
-package Demo0916.Demo1;
-
-import Demo0916.Demo2.A;
+package Demo0922.Demo2;
 
 public class Client {
     public static void main(String[] args) {
-        A a = new A();
+        Son son = new Son();
 
+        son.study();
     }
 }
