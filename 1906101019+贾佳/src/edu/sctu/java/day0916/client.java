@@ -8,6 +8,5 @@ public class client {
         std.height=10;
         std.Sleep();
 
-
     }
 }
