@@ -1,4 +1,5 @@
-import com.sun.org.apache.bcel.internal.generic.NEW;
+package edu.sctu.java.day0908;
+
 public class Person {
     //属性
     String name = "八里公路";
@@ -20,6 +21,8 @@ public class Person {
         System.out.println(p.sex);
         //p.study();
         p.run();
+        p.study();
+        p.movie();
     }
 }
 
