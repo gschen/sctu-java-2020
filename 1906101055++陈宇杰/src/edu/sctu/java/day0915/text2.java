@@ -1,3 +1,5 @@
+package edu.sctu.java.day0915;
+
 public class text2 {
     //main 函数实现方法 psvm+tab
     public static void main(String[] args) {
