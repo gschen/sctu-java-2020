@@ -5,6 +5,8 @@ public class Father {
     String name;
     int age;
 
+
+
     void study(){
 
         System.out.println("Father study");
