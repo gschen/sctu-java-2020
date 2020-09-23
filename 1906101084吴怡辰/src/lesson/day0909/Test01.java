@@ -1,4 +1,4 @@
-package day0909;
+package lesson.day0909;
 
 public class Test01 {
 
