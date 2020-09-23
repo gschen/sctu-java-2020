@@ -1,19 +1,20 @@
 package edu.sctu.java.day0923;
 
-public class Person  implements PersonAction{
+public class Worker implements PersonAction{
+    String no;
 
     @Override
     public void study() {
-        System.out.println("普通人study....");
+        System.out.println("工人正在学习");
     }
 
     @Override
     public void sleep() {
-        System.out.println("sleep...");
+
     }
 
     @Override
     public void programming() {
-        System.out.println("programing");
+
     }
 }
