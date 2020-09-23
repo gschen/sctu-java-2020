@@ -1,6 +1,6 @@
 package edu.sctu.java.day0922;
 
-public class Peroson {
+public class Person {
     int age;
     String name;
 
