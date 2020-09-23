@@ -1,5 +1,6 @@
 package Demo0922.Demo2;
 
+// ctrl + H 看到类的继承关系
 public class Son extends Parent{
 
     // 重写
