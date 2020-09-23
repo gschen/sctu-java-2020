@@ -12,6 +12,11 @@ public class Son extends Father{
         System.out.println("son正在学习！");
     }
 
+    @Override
+    void play() {
+        System.out.println("儿子在玩");
+    }
+
     public static void main(String[] args) {
 //        Son li = new Son();
 //        Father B = new Father();

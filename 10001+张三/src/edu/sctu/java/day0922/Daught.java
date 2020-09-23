@@ -1,9 +1,9 @@
 package edu.sctu.java.day0922;
 
-public class Daught extends Mama {
+public class Daught extends Father {
 
     @Override
-    void dish() {
-        System.out.println("daughter dish!");
+    void play() {
+        System.out.println("女儿在玩");
     }
 }

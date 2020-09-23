@@ -19,12 +19,12 @@ public class Client1 {
 //
 //
 
-        Mama mama = new Mama();
-        mama.dish();
-
-
-        Mama ma = new Daught();
-        ma.dish();
+//        Mama mama = new Mama();
+//        mama.dish();
+//
+//
+//        Mama ma = new Daught();
+//        ma.dish();
 
     }
 }

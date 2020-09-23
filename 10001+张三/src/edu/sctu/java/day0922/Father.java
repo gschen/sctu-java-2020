@@ -22,4 +22,7 @@ public class Father {
 //
 //        bob.study();
 //    }
+    void play() {
+        System.out.println("父亲在玩");
+    }
 }
