@@ -13,12 +13,16 @@ public class test6 {
         switch (s){
             case "A" :
                 System.out.println("85分以上（包括85）");
+                break;
             case "B" :
                 System.out.println("70分以上（包括70分）");
+                break;
             case "C" :
                 System.out.println("60分以上（包括60分）");
+                break;
             case "D" :
                 System.out.println("60分以下");
+                break;
 
         }
 
