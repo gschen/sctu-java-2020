@@ -1,11 +1,8 @@
 package Demo0923.Demo3;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public interface UserDao {
 
-    public String FindById(int id,List[] nums);
+    public String FindById(int id,int[] index,String[] data);
 
-    public String FindByName(String name);
+    public int FindByName(String name, int[] index, String[] data);
 }
