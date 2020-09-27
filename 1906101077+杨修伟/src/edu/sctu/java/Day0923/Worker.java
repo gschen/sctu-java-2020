@@ -1,7 +1,6 @@
-package edu.sctu.java.day0923;
+package edu.sctu.java.Day0923;
 
 public class Worker implements PersonAction{
-    String no;
 
     @Override
     public void study() {
@@ -9,12 +8,12 @@ public class Worker implements PersonAction{
     }
 
     @Override
-    public void sleep() {
-        System.out.println("工人正在睡觉");
+    public void eat() {
+        System.out.println("工人正在吃饭");
     }
 
     @Override
-    public void programming() {
-
+    public void run() {
+        System.out.println("工人正在跑步");
     }
 }
