@@ -13,6 +13,8 @@ public class StringExample {
 
         int a = name.codePointCount(2,5);
 
+
+
         System.out.println(c);
         System.out.println(b);
         System.out.println(a);
