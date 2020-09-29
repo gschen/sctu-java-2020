@@ -4,9 +4,9 @@ public class Client {
 
     public static void main(String[] args) {
 
-        Father cc = new Son();
+         Father cc = new Son();
 
-        cc.study();
+         Son c = (Son)new Father();
 
 
     }
