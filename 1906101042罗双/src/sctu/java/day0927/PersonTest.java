@@ -19,7 +19,7 @@ public class PersonTest {
         ints[4]=5;
 
 
-
+        //三个人的数组
         Person[] persons = new Person[3];
 
         for (int i = 0;i<3;i++){
@@ -29,6 +29,7 @@ public class PersonTest {
         persons[0].name="a";
         persons[1].name="b";
         persons[2].name="c";
+
 
 
 
