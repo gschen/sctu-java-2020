@@ -9,9 +9,14 @@ public class Client {
 //        Child son = new Child();
 //        son.drank();
 
-        Father A = new Child();
+        //Father A = new Child();
         //A.study();
-        A.drank();
+        //A.drank();
+
+        Father father = new Father();
+        father.drank();
+        father.drank(5);
+
     }
 
 }

@@ -15,6 +15,10 @@ public class Father {
 
     }
 
+    public void drank(int a){
+        System.out.println("父亲隔了"+a+"天没有喝酒了");
+    }
+
     public void study(){
         System.out.println("父亲学习不上心");
     }
