@@ -17,15 +17,17 @@ public class Client {
                     String quit = input.next();
                     if(quit.equals("u")){
                         Air.Up(quit);}
-                    if(quit.equals("d")){
+                    else if(quit.equals("d")){
                         Air.Down(quit);}
-                    if(quit.equals("l")){
+                    else if(quit.equals("l")){
                         Air.Left(quit);}
-                    if(quit.equals("r")){
+                    else if(quit.equals("r")){
                         Air.Right(quit);}
-                    if (quit.equals("q")) {
+                    else if (quit.equals("q")) {
                         Air.Quit(quit);
-                        break;
+                        System.exit(0);
+                    }else {
+                        System.out.println("输入有误");
                     }
 
 
