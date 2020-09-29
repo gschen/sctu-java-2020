@@ -1,3 +1,5 @@
+package sctu.java.day0908;
+
 public class Person {
     //1.属性：姓名，年龄，性别等。
     String name="张三";
@@ -16,5 +18,13 @@ public class Person {
     void movie(){
         System.out.println("我正在在看电影。");
     }
+
+
+    //构造函数
+    Person(){
+        System.out.println("这是构造函数");
+    }
+
+    //ctrl+N 搜索类
 
 }

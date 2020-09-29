@@ -11,4 +11,6 @@ public class Student extends Person{
         System.out.println("学生在这个"+age+"岁都要学习");
     }
 
+    private void study() {
+    }
 }
