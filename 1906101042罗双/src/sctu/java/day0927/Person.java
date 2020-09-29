@@ -1,6 +1,8 @@
 package sctu.java.day0927;
 
 public class Person implements PersonAction {
+    String name;
+    int age;
     @Override
     public void study() {
 
