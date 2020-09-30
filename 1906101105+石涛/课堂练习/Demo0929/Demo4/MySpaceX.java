@@ -21,26 +21,30 @@ public class MySpaceX implements SpaceX{
     public void run() {
         System.out.println("飞机开始运行");
 
-        while (true) {
-            char cmd = in.next().charAt(0);
-            switch (cmd) {
-                case 'u':
-                    up();
-                    break;
-                case 'd':
-                    down();
-                    break;
-                case 'l':
-                    left();
-                    break;
-                case 'r':
-                    right();
-                    break;
-                case 'q':
-                    shutdown();
-                    System.exit(0);
-                    break;
+        try{ // 异常处理机制
+            while (true) {
+                char cmd = in.next().charAt(0);
+                switch (cmd) {
+                    case 'u':
+                        up();
+                        break;
+                    case 'd':
+                        down();
+                        break;
+                    case 'l':
+                        left();
+                        break;
+                    case 'r':
+                        right();
+                        break;
+                    case 'q':
+                        shutdown();
+                        System.exit(0);
+                        break;
+                }
             }
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
 
