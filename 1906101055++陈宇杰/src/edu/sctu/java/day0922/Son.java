@@ -8,8 +8,10 @@ public class Son extends Father {
         Son chen = new Son();
         chen.age=18;
         chen.study();
-        System.out.println("name=chen,18");
+        //System.out.println("age");
 
     }
 }
 //类的继承，实例化的方法
+
+//ctrl+h可查询类的继承关系

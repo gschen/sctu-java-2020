@@ -9,7 +9,7 @@ public class Person  implements PersonAction{
 
     @Override
     public void sleep() {
-        System.out.println("sleep...");
+        System.out.println("普通人sleep...");
     }
 
     @Override
