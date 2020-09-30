@@ -11,4 +11,9 @@ public class PersonA implements PersonAction{
         System.out.println("他在睡觉");
 
     }
+
+    public static void main(String[] args) {
+        PersonAction zhou = new PersonA();
+        zhou.sleep();
+    }
 }
