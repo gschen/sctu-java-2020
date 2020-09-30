@@ -1,9 +1,9 @@
 package day0915;
 
 public class Person {
-    String name;
-    int age;
-    String sex;
+    public String name;
+    public int age;
+    public String sex;
   // Person(String name,int age,String sex){
 //        this.name=name;
 //        this.age=age;
