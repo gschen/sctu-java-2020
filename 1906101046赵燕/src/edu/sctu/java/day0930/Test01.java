@@ -9,6 +9,10 @@ public class Test01 {
         }
     }
 
+//    void aa() throws ArithmeticException{
+//        bb();
+//    }
+
     void b(){
         try{
             System.out.println(10/0);
