@@ -10,7 +10,7 @@ public class Worker implements PersonAction{
 
     @Override
     public void sleep() {
-
+        System.out.println("工人正在睡觉");
     }
 
     @Override
