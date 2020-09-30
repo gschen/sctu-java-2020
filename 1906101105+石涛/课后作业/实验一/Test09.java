@@ -1,4 +1,4 @@
-package Demo0916;
+package 实验一;
 
 // 用字母打印菱形
 public class Test09 {

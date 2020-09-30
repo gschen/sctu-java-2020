@@ -1,4 +1,4 @@
-package Demo0916;
+package 实验一;
 
 // 打印九九乘法表
 public class Test08 {

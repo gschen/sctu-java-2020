@@ -19,5 +19,6 @@ public class MapTest {
         for (Map.Entry<Integer,String> entry : mapPerson.entrySet()){
             System.out.println("key:"+entry.getKey()+",value:"+entry.getValue());
         }
+        System.out.println(mapPerson);
     }
 }
