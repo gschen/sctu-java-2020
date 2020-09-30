@@ -17,7 +17,21 @@ public class MySpaceX implements SpaceX{
     public void run() {
         System.out.println("run");
 
+
+
+
+
+
+
+
+
         while (true){
+
+
+            try {
+               //有错误的代码
+            }catch (Exception e){
+           }
 //            用户输入命令
             Scanner scanner=new Scanner(System.in);
             char cmd=scanner.next().charAt(0);
