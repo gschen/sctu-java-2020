@@ -1,4 +1,4 @@
-package Demo0916;
+package 实验一;
 
 // 用 for 语句、while 语句以及 do while 语句编写一个求和程序（即 sum=1+2+3+...+n）
 public class Test04 {
