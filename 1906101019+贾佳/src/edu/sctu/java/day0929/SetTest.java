@@ -16,5 +16,9 @@ public class SetTest {
 //        for (Person p : personSet){
 //            System.out.println(p.name);
 //        }
+
+        Set<Integer> in = new HashSet<Integer>();
+        in.add(1);
+        System.out.println(in);
     }
 }
