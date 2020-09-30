@@ -1,4 +1,4 @@
-package Demo0916;
+package 实验一;
 
 // 用break语句实现记数：从1-100，当数到78时程序终止。
 public class Test03 {

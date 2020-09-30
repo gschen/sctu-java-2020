@@ -1,4 +1,4 @@
-package Demo0916;
+package 实验一;
 
 // 使用continue语句实现：将100-300之间的不能被3整除的数输出。
 public class Test02 {
