@@ -1,9 +1,8 @@
-package java0299;
+package test;
 
 public class Client {
     public static void main(String[] args) {
-        StudentB s = new StudentB();
-        s.method();
+        Child child=new Child();
+        child.read();
     }
-
 }
