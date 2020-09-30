@@ -1,25 +1,15 @@
 package experiment01;
 
-import java.util.ArrayList;
 
 public class Text09 {
-    public void table(){
-        ArrayList l = new ArrayList();
-        for (int i = 97; i < 117 ; i++) {
-            char p = (char)i;
-            char k = Character.toUpperCase(p);
-            l.add(k);
-        }
-        System.out.print(l.get(1));
-        prints(l);
-    }
-
-    public void prints(ArrayList l){
-
-    }
-
     public static void main(String[] args) {
-        Text09 s = new Text09();
-        s.table();
+        System.out.println("   A   ");
+        System.out.println("  B C  ");
+        System.out.println(" D E F ");
+        System.out.println("G H I G");
+        System.out.println("K L M N");
+        System.out.println(" O P Q ");
+        System.out.println("  R S  ");
+        System.out.println("   T   ");
     }
 }
