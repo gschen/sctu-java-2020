@@ -5,7 +5,7 @@ public class Demo01 {
     String car;
 
     void study(){
-        System.out.println("我开"+car);
+        System.out.println("father开"+car);
 
     }
 
