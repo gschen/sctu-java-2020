@@ -14,9 +14,9 @@ public class Test24 {
 
         // 设置时间
         Calendar c1=Calendar.getInstance();
-        c1.set(2018, 12-1,12);
+        c1.set(Integer.parseInt(start.substring(0,4)), Integer.parseInt(start.substring(4,6))-1,Integer.parseInt(start.substring(6)));
         Calendar c2=Calendar.getInstance();
-        c2.set(2018, 12-1,17);
+        c2.set(Integer.parseInt(end.substring(0,4)), Integer.parseInt(end.substring(4,6))-1,Integer.parseInt(end.substring(6)));
 
         long t1=c1.getTimeInMillis(); // 获得毫秒
         long t2=c2.getTimeInMillis(); // 获得毫秒
