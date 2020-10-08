@@ -1,0 +1,34 @@
+1.length属性和length（）方法有什么区别：
+length属性：获取数组长度
+length方法：计算字符串长度
+
+一、String基本操作方法
+1、 获取字符串长度方法length()
+    格式：int length = str.length();
+2、获取字符串中的第i个字符方法charAt(i)
+    格式：char ch = str.charAt(i);  //i为字符串的索引号，可得到字符串任意位置处的字符，保存到字符变量中
+3、获取指定位置的字符方法getChars(4个参数)
+    格式：char array[] = new char[80];  //先要创建以一个容量足够大的char型数组，数组名为array
+    str.getChars(indexBegin,indexEnd,array,arrayBegin);
+解释一下括号中四个参数的指向意义：　　　　　　
+1、indexBegin：需要复制的字符串的开始索引　　　　　　
+2、 indexEnd:需要复制的字符串的结束索引，indexEnd-1
+3、array:前面定义的char型数组的数组名
+4、arrayBegin:数组array开始存储的位置索引号
+
+
+
+二、字符串比较
+1、
+(1)不忽略字符串大小写情况下字符串的大小比较方法compareTo(another str)
+    格式：int result = str1.compareTo(str2);
+    输出三种比较结果：若该字符串的Unicode值<参数字符串的Unicode值，结果返回一负整数；若若该字符串的Unicode值=参数字符串的Unicode值，结果返回0；若该字符串的Unicode值>参数字符串的Unicode值，结果返回一正整数。
+(2)  忽略字符串大小写情况下字符串的大小比较方法compareTOIgnoreCase(another str)
+    格式：int result = str1.compareToIgnoreCase(str2);
+    在忽略字符串大小写情况下，返回三种比较结果：输出三种比较结果：若该字符串的Unicode值<参数字符串的Unicode值，结果返回一负整数；若若该字符串的Unicode值=参数字符串的Unicode值，结果返回0；若该字符串的Unicode值>参数字符串的Unicode值，结果返回一正整数。
+2、判别两种字符串是否相等(相等情况下必须保证二者长度相等)需求中的方法：
+(1)不忽略字符串大小写情况下判别字符串相等的方法eaquals(another str)
+    格式：boolean result = str1.equals(str2);
+    当且仅当str1和str2的长度相等，且对应位置字符的Unicode编码完全相等，返回true,否则返回false
+(2)忽略字符串大小写情况下判别字符串相等的方法equalsIgnoreCase(another str)
+    格式：boolean result = str1.equals(str2);

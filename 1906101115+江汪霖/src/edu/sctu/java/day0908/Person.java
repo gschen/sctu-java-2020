@@ -1,6 +1,7 @@
 package edu.sctu.java.day0908;
 
 public class Person {
+    String name;
     String a = "张三";
     int b = 20;
     String c = "男";
