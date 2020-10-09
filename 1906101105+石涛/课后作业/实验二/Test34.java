@@ -8,7 +8,7 @@ public class Test34 {
         List<String> fruits = new ArrayList<String>();
 
         // 添加元素
-        fruits.addAll(0, Arrays.asList(new String[]{"apple", "grape", "banana", "pear"}));
+        fruits.addAll(0, Arrays.asList("apple", "grape", "banana", "pear"));
 
         // 求最大
         String ans = null;
