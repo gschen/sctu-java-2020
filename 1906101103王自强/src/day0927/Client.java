@@ -1,6 +1,6 @@
 package day0927;
 
-import day0923.Work.Person.Person;
+import 实验二.Person.Person;
 
 public class Client {
     public static void main(String[] args) {

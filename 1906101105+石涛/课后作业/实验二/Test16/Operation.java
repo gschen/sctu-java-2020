@@ -1,6 +1,6 @@
 package 实验二.Test16;
 
-public class Operation {
+public abstract class Operation {
     // 方法
 
     // 加法
