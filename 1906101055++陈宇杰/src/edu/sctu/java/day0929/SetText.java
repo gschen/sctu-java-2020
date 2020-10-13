@@ -13,6 +13,7 @@ public class SetText {
 
         personSet.add(chen);
         personSet.remove(chen);
+        
 
 
         for(Person p :personSet){

@@ -21,4 +21,9 @@ public class Person implements PersonAction {
     public void run() {
 
     }
+
+    @Override
+    public void eat() {
+
+    }
 }

@@ -19,6 +19,11 @@ public class Worker implements PersonAction
 
     }
 
+    @Override
+    public void eat() {
+
+    }
+
     public static void main(String[] args) {
         Worker chen = new Worker();
         chen.age=18;
