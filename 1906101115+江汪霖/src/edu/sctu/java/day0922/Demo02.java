@@ -5,6 +5,8 @@ public class Demo02 extends Demo01 {
     String subject ;
 
     void study(){
-        System.out.println("我学习"+subject);
+
+        System.out.println("son学习"+subject);
+
     }
 }

@@ -5,6 +5,7 @@ public class Person {
     String name;
 
     void study(){
+
         System.out.println("学习方法1");
     }
 
