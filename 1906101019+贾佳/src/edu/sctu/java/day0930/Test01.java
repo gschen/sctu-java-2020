@@ -16,9 +16,15 @@ public class Test01 {
             throw new ArithmeticException();//将错误抛给上一层方法
         }
     }
-
+    void aa() throws ArithmeticException{
+        bb();
+    }
+    void bb(){
+        System.out.println(10/0);
+    }
     public static void main(String[] args) {
         Test01 t = new Test01();
         t.a();
+        t.aa();;
     }
 }
