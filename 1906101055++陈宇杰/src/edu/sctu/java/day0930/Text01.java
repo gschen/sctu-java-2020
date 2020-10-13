@@ -20,3 +20,4 @@ public class Text01 {
 
     }
 }
+//Java异常处理机制（try。。catch语句）
