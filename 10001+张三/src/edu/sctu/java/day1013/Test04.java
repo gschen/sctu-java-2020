@@ -9,9 +9,19 @@ public class Test04 {
         // 1. 字节流 写文件
         try {
             OutputStream os = new FileOutputStream(
-                    "output.txt"); // ctrl+P
+                    "E:\\Download\\output.txt"); // ctrl+P
 
-            os.write(97);
+//            os.write(97);
+
+//            for(char c : "hello, world!".toCharArray()){
+////                os.write((int)c);
+//                os.write(c);
+//            }
+//
+//            os.write("helloworld!".getBytes());
+            os.write("Hello,world!".getBytes(),
+                    5,
+                    3);
 
             os.close();
 
