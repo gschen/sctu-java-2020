@@ -3,7 +3,7 @@ package edu.sctu.java.day0929;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListTest {
+public class ListTest<S> {
     public static void main(String[] args) {
         List<String> list=new ArrayList<String>();
         list.add("Hello");

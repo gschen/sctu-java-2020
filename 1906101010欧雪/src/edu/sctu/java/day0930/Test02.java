@@ -12,6 +12,10 @@ public class Test02 {
         }
     }
 
+    void aa() throws ArithmeticException{
+        bb();
+    }
+
 
     void  b(){
         try {
@@ -23,8 +27,12 @@ public class Test02 {
         }
     }
 
+    void bb(){
+        System.out.println(10/0);
+    }
+
     public static void main(String[] args) {
         Test02 test02=new Test02();
-        test02.a();
+        test02.aa();
     }
 }
