@@ -3,14 +3,14 @@ package edu.sctu.java.test;
 import java.io.*;
 
 public class JavaIOTest {
-    static void in() throws IOException{
+    static void in() throws IOException {
         InputStream is = new FileInputStream("data/t1.txt");
 
         byte[] buffer = new byte[1024];
         StringBuilder stringBuilder = new StringBuilder();
 
 
-        while((is.read(buffer)) != -1){
+        while ((is.read(buffer)) != -1) {
             stringBuilder.append(new String(buffer));
         }
 
@@ -32,6 +32,20 @@ public class JavaIOTest {
         System.out.println(b);
 
 
+    }
+
+    static void fromByteArray() throws IOException {
+
+        byte[] buf = "hello".getBytes();
+        ByteArrayInputStream is = new ByteArrayInputStream(buf);
+
+        int b;
+
+        while ((b = is.read()) != -1) {
+            System.out.print((char) b);
+        }
+
+        is.close();
     }
 
     static void writeData() throws IOException {
@@ -81,13 +95,23 @@ public class JavaIOTest {
 
     }
 
+    static void fromString() {
+        StringReader reader = new StringReader("hello");
+
+        StringWriter writer = new StringWriter();
+        writer.write("hello");
+        writer.getBuffer();
+    }
+
     public static void main(String[] args) {
 
         try {
 //            writeData();
 //            readData();
 //            seqIn();
-            in();
+//            in();
+
+            fromByteArray();
         } catch (IOException e) {
             e.printStackTrace();
         }
