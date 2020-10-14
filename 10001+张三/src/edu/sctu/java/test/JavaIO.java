@@ -19,6 +19,16 @@ public class JavaIO {
 
 
     }
+    static void test(){
+
+        try {
+            BufferedReader reader = new BufferedReader(
+                    new FileReader("output.txt")
+            );
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
     static void read() {
         try {
