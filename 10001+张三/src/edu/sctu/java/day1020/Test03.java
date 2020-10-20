@@ -24,7 +24,7 @@ public class Test03 {
 
             connection = DriverManager.getConnection(
                     //http://www.sctu.edu.cn:8080/index.html
-                    "jdbc:mysql://localhost:3306/java", // 数据库连接字符串
+                    "jdbc:mysql://localhost:3306/java?serverTimezone=UTC", // 数据库连接字符串
                     "root",
                     "123456" //你的数据库密码
             );
