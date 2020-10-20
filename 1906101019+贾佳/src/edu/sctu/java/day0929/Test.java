@@ -17,7 +17,7 @@ public class Test {
 //        System.out.println(pers[0].name);
         List<Integer>arr = new ArrayList<Integer>();
         arr.add(1);
-
+        System.out.println(arr);
 
         List<Person> personList = new ArrayList<Person>();
 
