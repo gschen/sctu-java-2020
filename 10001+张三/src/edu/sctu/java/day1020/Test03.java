@@ -1,8 +1,6 @@
 package edu.sctu.java.day1020;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 
 public class Test03 {
 
@@ -14,10 +12,43 @@ public class Test03 {
 
 
         Connection connection = null;
-        Statement statement =  null;
+        Statement statement = null;
         ResultSet resultSet = null;
 
+        try {
+            // 加载mysql驱动程序
+            Class.forName("com.mysql.jdbc.Driver");
 
+            // sctu.edu.cn
+            // cn/edu/sctu/day1020
+
+            connection = DriverManager.getConnection(
+                    //http://www.sctu.edu.cn:8080/index.html
+                    "jdbc:mysql://localhost:3306/java", // 数据库连接字符串
+                    "root",
+                    "123456" //你的数据库密码
+            );
+
+            statement = connection.createStatement();
+
+            statement.execute(sql);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }finally {
+
+
+            try {
+                statement.close();
+                connection.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+
+
+        }
 
 
     }
