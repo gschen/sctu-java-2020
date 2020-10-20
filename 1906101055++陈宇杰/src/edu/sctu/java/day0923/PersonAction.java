@@ -7,5 +7,6 @@ public interface PersonAction {
     void study();
     void watch();
     void run();
+    void eat();
 
 }
