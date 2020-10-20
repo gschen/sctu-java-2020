@@ -8,7 +8,10 @@ public class Test01 {
 
 
         // 3 + 1
-        String sql = "insert into t_users(name) values ('alice')";
+//        String sql = "insert into t_users(name) values ('alice')";
+//        String sql = "delete from t_users where name='alice'";
+//        String sql = "update t_users set name = 'bob' where name='chen'";
+        String sql = "delete from t_users where name = 'chen' ";
 
 
         Connection connection = null;
