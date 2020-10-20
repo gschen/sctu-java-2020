@@ -12,8 +12,6 @@ public class Client {
         zhen.study();
 
 
-        PersonAction zz=new Client2();
-        zz.study();
 
         List<String> list=new ArrayList<>();
     }
