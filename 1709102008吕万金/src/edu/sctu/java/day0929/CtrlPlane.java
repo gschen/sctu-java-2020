@@ -13,26 +13,31 @@ public class CtrlPlane {
             System.out.println("请进行操作：u、d、l、r、q");
             label:
             while (true) {
-                String play2 = ctrl.next();
-                switch (play2) {
-                    case "u":
-                        System.out.println("飞机向上移动");
-                        break;
-                    case "d":
-                        System.out.println("飞机向下移动");
-                        break;
-                    case "l":
-                        System.out.println("飞机向左移动");
-                        break;
-                    case "r":
-                        System.out.println("飞机向右移动");
-                        break;
-                    case "q":
-                        System.out.println("你启动了退出程序按钮，飞机退出操作");
-                        break label;
-                    default:
-                        System.out.println("操作指令错误，运行失败");
-                        break label;
+                try{
+                    char play2 = ctrl.next().charAt(0);
+                    switch (play2) {
+                        case 'u':
+                            System.out.println("飞机向上移动");
+                            break;
+                        case 'd':
+                            System.out.println("飞机向下移动");
+                            break;
+                        case 'l':
+                            System.out.println("飞机向左移动");
+                            break;
+                        case 'r':
+                            System.out.println("飞机向右移动");
+                            break;
+                        case 'q':
+                            System.out.println("你启动了退出程序按钮，飞机退出操作");
+                            break label;//等价于System.exit(0);
+                        default:
+                            System.out.println("操作指令错误，运行失败");
+                            break;
+                    }
+
+                }catch (Exception e){
+                    e.printStackTrace();
                 }
             }
         } else {

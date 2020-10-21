@@ -1,4 +1,7 @@
-.idea/
-*.iml
-*.ips
-out/
+    .idea/
+    *.iml
+    *.ips
+    out/
+    lib/
+    out/
+    production/
