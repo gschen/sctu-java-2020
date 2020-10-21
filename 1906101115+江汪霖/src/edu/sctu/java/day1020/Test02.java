@@ -14,7 +14,7 @@ public class Test02 {
         ResultSet resultSet = null;
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             try {
                 connection = DriverManager.getConnection(
                         "jdbc:mysql://localhost:3306/java?serverTimezone=UTC",
