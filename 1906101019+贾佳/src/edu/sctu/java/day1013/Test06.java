@@ -13,7 +13,7 @@ public class Test06 {
             int c = 0;
 //            System.out.println(c);
             while ((c = is.read()) != -1){
-                System.out.println(c);
+                System.out.print((char)c);
             }
             is.close();
         } catch (FileNotFoundException e) {
