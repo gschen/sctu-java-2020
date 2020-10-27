@@ -19,8 +19,6 @@ public class Client2 {
         List<String> set4 = urls.subList(76,100);
 
 
-
-
         Thread t1 = new Thread(new TaskThread("t1",set1));
         Thread t2 = new Thread(new TaskThread("t2",set2));
         Thread t3 = new Thread(new TaskThread("t3",set3));
