@@ -6,9 +6,11 @@ public class Client {
 //        TaskOne taskOne = new TaskOne();
 //
 //        new TaskOne();//匿名对象
-        Thread t1 = new Thread(new TaskOne(10));
-
+        Thread t1 = new Thread(new TaskOne(1,10));
+        Thread t2 = new Thread(new TaskOne(11,15));
+        Thread t3 = new Thread(new TaskOne(16,20));
         t1.start();
-
+        t2.start();
+        t3.start();
     }
 }

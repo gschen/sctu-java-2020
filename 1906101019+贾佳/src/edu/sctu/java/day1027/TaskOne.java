@@ -1,23 +1,28 @@
 package edu.sctu.java.day1027;
 
 public class TaskOne implements Runnable{
-    int n;
-
+    int start;
+    int end;
     void setN(int v){
-        this.n = v;
+        this.start = v;
     }
     TaskOne(){
 
     }
-    TaskOne(int v){
-        this.n = v;
+    TaskOne(int v,int e){
+        this.start = v;
+        this.end = e;
     }
 
 
     @Override
     public void run() {
-        System.out.println("我是线程1号。");
-        for (int i = 0; i < this.n ; i++) {
+        for (int i = start; i < end ; i++) {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.print(i);
         }
     }
