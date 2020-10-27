@@ -15,6 +15,9 @@ public class Client {
         TaskTwo t2 = new TaskTwo();
         t2.start();
 
+        // 高内聚、低耦合
+        // 封装、继承、多态
+
 
 
 //        Person chen = new Person();
