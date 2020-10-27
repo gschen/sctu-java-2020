@@ -16,7 +16,7 @@ public class TaskThread implements Runnable {
     public void run() {
 
         for (String url:this.urls){
-            System.out.println(this.name+"url正在下载");
+            System.out.println(this.name+"-download"+ url);
         }
 
 
